@@ -1,0 +1,16 @@
+.formLogin{
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    input, .mantine-InputWrapper-root{
+        margin-bottom: 20px;
+    }
+    button{
+        background-color: #222;
+        transition: .3s;
+        &:hover{
+            background-color: #333;
+        }
+    }
+}
